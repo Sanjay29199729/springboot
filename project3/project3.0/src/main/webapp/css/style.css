@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+
+a:hover {
+	background-color: #04AA6D;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 6px;
+	border-radius: 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+	margin: 20px;
+}
+
+header {
+	border-bottom: 1px solid black;
+}
+
+.container {
+	width: 80%;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: 10%;
+	border: 0.5px solid black;
+}
+
+.container .top {
+	height: 80px;
+	background-color: #04AA6D;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .top .cl1 {
+	width: 15%;
+	border: 1px solid black;
+	padding: 20px;
+	border-radius: 50%;
+	color: white;
+	background-color: rgb(128, 128, 255);
+}
+
+.container .top .cl9 {
+	/*width: 90%;*/
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 20px;
+	color: white;
+}
+
+.container .sec1 {
+	width: 80%;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.container .sec1 table {
+	margin: 10px auto;
+}
+
+.container .sec1 table th {
+	margin: 0px auto;
+}
+
+.csub {
+	background-color: green;
+	color: white;
+	padding: 5px;
+}
+
+.creset {
+	background-color: red;
+	color: white;
+	padding: 5px;
+}
+
+tr {
+	margin: 20px 10px;
+	padding: 20px 10px;
+}
+
+#cus {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#cus th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
+
+#cus td, #cus th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
